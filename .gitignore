@@ -1,0 +1,18 @@
+# Rust build artifacts
+/target/
+target/
+.fingerprint/
+
+# Rust package registry
+Cargo.lock
+
+# Environment-specific files
+.env
+
+# Rust editor config
+.idea/
+.vscode/
+
+# Temporary files from Rust's Cargo tool
+**/*.rs.bk
+*.log
